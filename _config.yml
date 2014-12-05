@@ -30,3 +30,8 @@ relative_permalinks: 'false'
 recaptcha_public_key: 6Lf15v0SAAAAAMReHqDCinChFIhv-Ve66By0f90D
 v: 1
 baseurl: /
+description: 'Plastering Brighton'
+comments:
+    provider: '1'
+sharing:
+    limit: '3'

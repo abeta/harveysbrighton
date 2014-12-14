@@ -1,8 +1,0 @@
----
----
-{% assign files = (site.static_files | where: 'extname', '.jpg' | sort: 'modified_time') %}
-{% for file in files reversed %}
-{% if file.path contains 'images/portfolio' %}
-{{ file.path }}
-{% endif %}
-{% endfor %}
